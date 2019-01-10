@@ -383,7 +383,7 @@ class CloudwatchLogOutput(AWSOutput):
 
     @classmethod
     def get_user_defined_properties(cls):
-        """Get properties that must be asssigned by the user when configuring a new Lambda
+        """Get properties that must be assigned by the user when configuring a new Lambda
         Returns:
             OrderedDict: Contains various OutputProperty items
         """
